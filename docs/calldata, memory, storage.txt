@@ -1,0 +1,15 @@
+1. Storage:
+- Holds state variables.
+- Persistent and expensive(It costs gas)
+- Like a computer HDD
+
+2. Stack:
+- Holds local variables defind inside functions if they are not reference types(ex int)
+- Free to be used(it doesn't cost gas)
+
+3. Memory:
+- Holds local variables defined inside the function if they are refernce types but declared with memory keyword.
+- Holds function arguments
+- Like a computer RAM
+- Free to be used
+Reference types: string, array, struct and mapping

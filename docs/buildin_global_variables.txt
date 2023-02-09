@@ -1,0 +1,13 @@
+msg: contain information about the account that generates the transection and also about the transaction or call
+    msg.sender: account address that generates the transection
+    msg.value: eth value sent to this contract(in wei)
+    msg.gas: remaining gas (will be replaced by gasleft())
+    msg.data: data field from the transaction or call that executed this function
+
+this: the current contract, explicitly convertible to Address.
+block.timestamp alias for now: returns the Unix epoch
+block.number
+block.difficulty
+block.gaslimit
+tx.gasprice: gas price of the transaction
+

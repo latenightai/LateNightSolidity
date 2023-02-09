@@ -1,0 +1,11 @@
+1. State Variables:
+- Declared at contract level
+- Permanently stored in contract storage.
+- Can be set a constants.
+- Expensive to use, they cost gas.
+- Initialized at declaration, using a constructor or after contract deployement by calling setters.
+
+2. Local Variables:
+- Declared inside functions.
+- If using the memory keyword and are arrays or struct, they are allocated at runtime.
+- Memory keyword can't be used at contract level.
